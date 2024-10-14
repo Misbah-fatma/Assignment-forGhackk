@@ -8,7 +8,7 @@ const Blog = () => {
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 text-center">
-                  <img src="/assets/img/normal-breadcrumb.jpg"/>
+                  <img src="/assets/img/normal-breadcrumb.jpg" alt="Blog Image"/>
                       <div class="normal__breadcrumb__text">
                           <h2> Blog</h2>
                           <p>Welcome to the official Anime blog.</p>
