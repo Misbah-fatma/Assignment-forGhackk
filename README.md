@@ -28,7 +28,7 @@ Commands to Run the Application
 To run the application locally, follow these steps:
 
 Clone the Repository
-git clone https://github.com/your-username/webtoon-library-app.git
+git clone https://github.com/Misbah-fatma/Assignment-forGhackk/
 
 Frontend (React)
 Navigate to the frontend directory:
@@ -54,8 +54,8 @@ Environment Variables
 Ensure to set up the following environment variables in your .env file for both the frontend and backend:
 
 Backend:
-
 DATABASE_URL (MongoDB or MySQL connection string)
 JWT_SECRET (Secret key for JWT)
+
 Frontend:
 REACT_APP_API_URL (Base URL for the backend API)
