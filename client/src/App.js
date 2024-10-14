@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './Components/HomePage';
 import Login from './Components/Login';
 import Register from './Components/Register';
@@ -8,6 +8,7 @@ import Favorites from './Components/Favourite';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Blog from './Components/Blog';
+import PageNotFound from './Components/PageNotFound';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/webtoon/:id" element={<WebtoonDetail />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer/>
       </div>
