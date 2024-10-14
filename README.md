@@ -28,24 +28,28 @@ Commands to Run the Application
 To run the application locally, follow these steps:
 
 Clone the Repository
-bash
-Copy code
 git clone https://github.com/your-username/webtoon-library-app.git
-cd webtoon-library-app
+
 Frontend (React)
 Navigate to the frontend directory:
 cd client
+
 Install dependencies:
 npm install
+
 Start the frontend server:
 npm start
+
 Backend (Node.js/Express)
 Navigate to the backend directory:
 cd server
+
 Install dependencies:
 npm install
+
 Start the backend server:
 npm run start
+
 Environment Variables
 Ensure to set up the following environment variables in your .env file for both the frontend and backend:
 
